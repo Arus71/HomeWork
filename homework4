@@ -1,7 +1,17 @@
+# По запросу вводи слово
 my_string = input("Type the word:")
+# Колличество символов в строке
 print(len(my_string))
+# Все символы в верхнем  регистре
 print(my_string.upper())
+# Все символы в нижнем регистре
 print(my_string.lower())
-print(my_string.replace(' ',''))
+# Добавляем п р о б е л ы после каждого символа в строке
+my_string1 = ' '.join(my_string)
+print(my_string1)
+# Удаляем пробелы
+print(my_string.replace(' ', ''))
+# Первый символ в строке
 print(my_string[0])
+# Последний символ в строке
 print(my_string[-1])
