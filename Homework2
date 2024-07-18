@@ -1,0 +1,6 @@
+home_work = 12
+dead_hours = 1.5
+name_lesson = 'Python'
+time_one_work = dead_hours*60/home_work
+print('Курс', name_lesson, 'всего задач', home_work, 'затрачено часов',
+      dead_hours, 'среднее время выполнения', time_one_work, 'минут')
