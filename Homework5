@@ -1,0 +1,11 @@
+immutable_var = ([1, 2, 3, 4, 5], True, 'Ruslan', False, "GoodBoy")
+print(immutable_var)
+# immutable_var [1] = False
+# Возникает ошибка tuple не поддерживает назначение
+immutable_var[0][2] = 99
+print(immutable_var)
+
+mutable_list = ["Ivanov", 'Petrov', "Sidor"]
+print(mutable_list)
+mutable_list[1] = "Ahmadinejad"
+print(mutable_list)
