@@ -1,0 +1,16 @@
+my_dict = {"Ruslan": 1971, "Igor": 1974, "Rita": 1999}
+print(my_dict)
+print(my_dict.get("Rita", "Не знаю когда родился(ась)"))
+print(my_dict.get("Liza", "Не знаю когда родился(ась)"))
+my_dict.update({"Tanya": 1977,
+                "Lyuba": 1980})
+a = my_dict.pop("Tanya")
+print(a)
+print(my_dict)
+
+my_set = {1, 2, 3, 4, 5, "Set", "Var", "Mod", 3, 4, 5, "Set", True, False, 1, 2, True, "Var"}
+my_set.add(12)
+my_set.update(["Line",
+              "Str"])
+my_set.discard("Var")
+print(my_set)
